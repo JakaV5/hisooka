@@ -18,18 +18,18 @@ global.APIKeys = {
 }
 
 // Other
-global.owner = ['6285822347348','6285822347348','6285822347348']
-global.premium = ['6285822347348']
+global.owner = ['6285785694474','6285785694474','6285785694474']
+global.premium = ['6285785694474']
 global.packname = 'Sticker by'
-global.author = 'ArullOfc'
+global.author = 'JakaOfc'
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
     success: '✓ *Success Ngab*',
-    admin: '*Fitur Khusus Admin Group Cok*‼️',
-    botAdmin: '*Bot Aj Bukan Admin Cok"!*',
-    owner: '*Lu siapa Cok!Owner gw?*',
+    admin: '*Dih,Lu Admin??',
+    botAdmin: '*Gw Bukan admin:( mana bisa njir *',
+    owner: '*Lu siapa? Cuma ayang Jaka yang bisa:v*',
     group: '*Fitur Digunakan Hanya Untuk Group!*',
     private: '*Fitur Digunakan Hanya Untuk Private Chat!*',
     bot: '*Fitur Khusus Pengguna Nomor Bot*',
@@ -38,10 +38,10 @@ global.mess = {
 }
 global.limitawal = {
     premium: "Infinity",
-    free: 100
+    free: 40
 }
 global.thumb = fs.readFileSync('./lib/20220625_223313.png')
-global.visoka = { url: 'https://telegra.ph/file/15209657f9d4f59c7ca1e.mp4' }
+global.visoka = { url: 'https://telegra.ph/file/755d24cd3161cb1644dbc.mp4' }
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
