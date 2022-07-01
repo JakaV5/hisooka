@@ -28,7 +28,7 @@ global.sp = '⭔'
 global.mess = {
     success: '✓ *Success Ngab*',
     admin: '*Dih,Lu Admin??',
-    botAdmin: '*Gw Bukan admin:( mana bisa njir *',
+    botAdmin: '*Gw Bukan admin:( mana bisa njir*',
     owner: '*Lu siapa? Cuma ayang Jaka yang bisa:v*',
     group: '*Fitur Digunakan Hanya Untuk Group!*',
     private: '*Fitur Digunakan Hanya Untuk Private Chat!*',
@@ -40,8 +40,8 @@ global.limitawal = {
     premium: "Infinity",
     free: 40
 }
-global.thumb = fs.readFileSync('./lib/20220625_223313.png')
-global.visoka = { url: 'https://telegra.ph/file/755d24cd3161cb1644dbc.mp4' }
+global.thumb = fs.readFileSync('./lib/images.png')
+global.visoka = { url: 'https://telegra.ph/file/1820a21bdf23913610e2f.mp4' }
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
