@@ -40,7 +40,7 @@ global.limitawal = {
     premium: "Infinity",
     free: 40
 }
-global.thumb = fs.readFileSync('./lib/images.png')
+global.thumb = fs.readFileSync('./lib/images.jpg')
 global.visoka = { url: 'https://telegra.ph/file/1820a21bdf23913610e2f.mp4' }
 
 let file = require.resolve(__filename)
